@@ -16,8 +16,13 @@
     vertical-align: baseline;
 }
 
+body{
+    background-color: #DAD7CD;
+}
+
 a{
     text-decoration: none;
+    color:#344E41
 }
 
 ul{
@@ -33,9 +38,11 @@ ul{
 header {
     display: flex;
     flex-direction: column;
-    background: url("../images/events_bg.jpg");
-    /*background: darkseagreen;*/
+    /*background: url("../images/events_bg.jpg");*/
+    /*background: rgba(58, 90, 64, 0.8);*/
+    background: linear-gradient(#DAD7CD, #344E41);
     background-size: cover;
+
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -59,9 +66,10 @@ header ul li{
 }
 
 header ul li a{
-    color: #fff;
+    /*color: #fff;*/
     text-decoration: none;
     font-weight: bold;
+    color: #344E41;
 }
 
 header img {
@@ -116,7 +124,8 @@ main #cat-filtering{
 }
 
 #cat-filtering ul li a{
-    color: #4d4b4b;
+    /*color: #4d4b4b;*/
+    font-weight: bolder;
 }
 
 
